@@ -4,7 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/main.cpp" "/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles/7Wonders_Sim.dir/main.cpp.o"
+  "/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/Game.cpp" "/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles/7Wonders_Sim.dir/src/Game.cpp.o"
+  "/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/BrownCard.cpp" "/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles/7Wonders_Sim.dir/src/cards/BrownCard.cpp.o"
+  "/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/Card.cpp" "/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles/7Wonders_Sim.dir/src/cards/Card.cpp.o"
+  "/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/CardFactory.cpp" "/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.o"
+  "/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/Ressources.cpp" "/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles/7Wonders_Sim.dir/src/cards/Ressources.cpp.o"
+  "/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/main.cpp" "/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles/7Wonders_Sim.dir/src/main.cpp.o"
+  "/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/wonders/Wonder.cpp" "/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles/7Wonders_Sim.dir/src/wonders/Wonder.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

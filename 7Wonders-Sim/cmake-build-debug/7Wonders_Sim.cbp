@@ -82,7 +82,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/main.cpp">
+		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/Game.cpp">
+			<Option target="7Wonders_Sim"/>
+		</Unit>
+		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/Game.h">
+			<Option target="7Wonders_Sim"/>
+		</Unit>
+		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/BrownCard.cpp">
+			<Option target="7Wonders_Sim"/>
+		</Unit>
+		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/BrownCard.h">
+			<Option target="7Wonders_Sim"/>
+		</Unit>
+		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/Card.cpp">
+			<Option target="7Wonders_Sim"/>
+		</Unit>
+		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/Card.h">
+			<Option target="7Wonders_Sim"/>
+		</Unit>
+		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/CardFactory.cpp">
+			<Option target="7Wonders_Sim"/>
+		</Unit>
+		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/CardFactory.h">
+			<Option target="7Wonders_Sim"/>
+		</Unit>
+		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/Ressources.cpp">
+			<Option target="7Wonders_Sim"/>
+		</Unit>
+		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/Ressources.h">
+			<Option target="7Wonders_Sim"/>
+		</Unit>
+		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/main.cpp">
+			<Option target="7Wonders_Sim"/>
+		</Unit>
+		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/wonders/Wonder.cpp">
+			<Option target="7Wonders_Sim"/>
+		</Unit>
+		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/wonders/Wonder.h">
 			<Option target="7Wonders_Sim"/>
 		</Unit>
 		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/CMakeLists.txt">
