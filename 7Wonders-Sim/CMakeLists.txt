@@ -3,4 +3,4 @@ project(7Wonders_Sim)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(7Wonders_Sim main.cpp)
+add_executable(7Wonders_Sim src/main.cpp)
