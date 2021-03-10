@@ -20,3 +20,7 @@ map<int, vector<Card>> Card::generateCards(int nbPlayer) {
 std::ostream &operator<<(std::ostream& os, const Card &c){
     os << c.name;
 }
+
+inline bool operator==(const Card& c1, const Card& c2){
+    return (c1.name == c2.name);
+}

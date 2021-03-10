@@ -14,7 +14,7 @@ public:
             vector<string> chainFrom, vector<string> chainTo,
             int nbPlayerMin, vector<Resource> res, bool xorCard);
 
-    const std::vector<Resource> res;
+    std::vector<Resource> res;
     const bool xorCard;
 
 };

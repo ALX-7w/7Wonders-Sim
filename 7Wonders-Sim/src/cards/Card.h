@@ -18,11 +18,11 @@ public:
     Card(string name, map<Resource,int> cost,
          vector<string> chainFrom, vector<string> chainTo,
          int nbPlayerMin);
-    const string name;
-    const map<Resource, int> cost;
-    const vector<string> chainFrom;
-    const vector<string> chainTo;
-    const int nbPlayerMin;
+     string name;
+     map<Resource, int> cost;
+     vector<string> chainFrom;
+     vector<string> chainTo;
+     int nbPlayerMin;
     static map<int, vector<Card>> generateCards(int nbPlayer);
 
 friend std::ostream &operator<<(std::ostream&, const Card&);
