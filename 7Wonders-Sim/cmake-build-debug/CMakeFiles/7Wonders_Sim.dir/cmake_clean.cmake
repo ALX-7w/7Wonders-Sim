@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/7Wonders_Sim.dir/src/cards/BrownCard.cpp.o"
   "CMakeFiles/7Wonders_Sim.dir/src/cards/Card.cpp.o"
   "CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.o"
+  "CMakeFiles/7Wonders_Sim.dir/src/cards/GreenCard.cpp.o"
   "CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.o"
   "CMakeFiles/7Wonders_Sim.dir/src/cards/Resource.cpp.o"
   "CMakeFiles/7Wonders_Sim.dir/src/main.cpp.o"

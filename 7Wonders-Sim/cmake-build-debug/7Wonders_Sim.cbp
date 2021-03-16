@@ -106,6 +106,12 @@
 		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/CardFactory.h">
 			<Option target="7Wonders_Sim"/>
 		</Unit>
+		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/GreenCard.cpp">
+			<Option target="7Wonders_Sim"/>
+		</Unit>
+		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/GreenCard.h">
+			<Option target="7Wonders_Sim"/>
+		</Unit>
 		<Unit filename="/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/GreyCard.cpp">
 			<Option target="7Wonders_Sim"/>
 		</Unit>

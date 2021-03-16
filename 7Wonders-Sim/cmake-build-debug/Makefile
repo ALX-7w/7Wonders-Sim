@@ -251,6 +251,33 @@ src/cards/CardFactory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/7Wonders_Sim.dir/build.make CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.s
 .PHONY : src/cards/CardFactory.cpp.s
 
+src/cards/GreenCard.o: src/cards/GreenCard.cpp.o
+
+.PHONY : src/cards/GreenCard.o
+
+# target to build an object file
+src/cards/GreenCard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7Wonders_Sim.dir/build.make CMakeFiles/7Wonders_Sim.dir/src/cards/GreenCard.cpp.o
+.PHONY : src/cards/GreenCard.cpp.o
+
+src/cards/GreenCard.i: src/cards/GreenCard.cpp.i
+
+.PHONY : src/cards/GreenCard.i
+
+# target to preprocess a source file
+src/cards/GreenCard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7Wonders_Sim.dir/build.make CMakeFiles/7Wonders_Sim.dir/src/cards/GreenCard.cpp.i
+.PHONY : src/cards/GreenCard.cpp.i
+
+src/cards/GreenCard.s: src/cards/GreenCard.cpp.s
+
+.PHONY : src/cards/GreenCard.s
+
+# target to generate assembly for a file
+src/cards/GreenCard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7Wonders_Sim.dir/build.make CMakeFiles/7Wonders_Sim.dir/src/cards/GreenCard.cpp.s
+.PHONY : src/cards/GreenCard.cpp.s
+
 src/cards/GreyCard.o: src/cards/GreyCard.cpp.o
 
 .PHONY : src/cards/GreyCard.o
@@ -380,6 +407,9 @@ help:
 	@echo "... src/cards/CardFactory.o"
 	@echo "... src/cards/CardFactory.i"
 	@echo "... src/cards/CardFactory.s"
+	@echo "... src/cards/GreenCard.o"
+	@echo "... src/cards/GreenCard.i"
+	@echo "... src/cards/GreenCard.s"
 	@echo "... src/cards/GreyCard.o"
 	@echo "... src/cards/GreyCard.i"
 	@echo "... src/cards/GreyCard.s"

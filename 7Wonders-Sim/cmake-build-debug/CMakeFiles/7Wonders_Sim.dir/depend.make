@@ -17,8 +17,14 @@ CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.o: ../src/cards/BrownCard.
 CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.o: ../src/cards/Card.h
 CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.o: ../src/cards/CardFactory.cpp
 CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.o: ../src/cards/CardFactory.h
+CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.o: ../src/cards/GreenCard.h
 CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.o: ../src/cards/GreyCard.h
 CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.o: ../src/cards/Resource.h
+
+CMakeFiles/7Wonders_Sim.dir/src/cards/GreenCard.cpp.o: ../src/cards/Card.h
+CMakeFiles/7Wonders_Sim.dir/src/cards/GreenCard.cpp.o: ../src/cards/GreenCard.cpp
+CMakeFiles/7Wonders_Sim.dir/src/cards/GreenCard.cpp.o: ../src/cards/GreenCard.h
+CMakeFiles/7Wonders_Sim.dir/src/cards/GreenCard.cpp.o: ../src/cards/Resource.h
 
 CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.o: ../src/cards/Card.h
 CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.o: ../src/cards/GreyCard.cpp
@@ -32,6 +38,7 @@ CMakeFiles/7Wonders_Sim.dir/src/main.cpp.o: ../src/Game.h
 CMakeFiles/7Wonders_Sim.dir/src/main.cpp.o: ../src/cards/BrownCard.h
 CMakeFiles/7Wonders_Sim.dir/src/main.cpp.o: ../src/cards/Card.h
 CMakeFiles/7Wonders_Sim.dir/src/main.cpp.o: ../src/cards/CardFactory.h
+CMakeFiles/7Wonders_Sim.dir/src/main.cpp.o: ../src/cards/GreenCard.h
 CMakeFiles/7Wonders_Sim.dir/src/main.cpp.o: ../src/cards/GreyCard.h
 CMakeFiles/7Wonders_Sim.dir/src/main.cpp.o: ../src/cards/Resource.h
 CMakeFiles/7Wonders_Sim.dir/src/main.cpp.o: ../src/main.cpp

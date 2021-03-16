@@ -40,6 +40,13 @@ vector<Card> CardFactory::generateAgeDeck(int nbPlayers, int age) {
                                 3, Resource::glass));
         deck.push_back(GreyCard("Press", map<Resource,int>() ,vector<string>(), vector<string>(),
                                 3, Resource::papyrus));
+        //Green
+        deck.push_back(GreenCard("Apothecary", map<Resource,int>({{Resource::loom,1}}) ,vector<string>(), vector<string>({"Stables", "Dispensary"}),
+                                3, Resource::compass));
+        deck.push_back(GreenCard("Workshop", map<Resource,int>({{Resource::glass,1}}) ,vector<string>(), vector<string>({"Laboratory", "Archery Range"}),
+                                3, Resource::gear));
+        deck.push_back(GreenCard("Scriptorium", map<Resource,int>({{Resource::papyrus,1}}) ,vector<string>(), vector<string>({"Courthouse", "Library"}),
+                                3, Resource::tablet));
     }
     else if(age==2){
         //Brown
@@ -58,9 +65,29 @@ vector<Card> CardFactory::generateAgeDeck(int nbPlayers, int age) {
                                 3, Resource::glass));
         deck.push_back(GreyCard("Press", map<Resource,int>() ,vector<string>(), vector<string>(),
                                 3, Resource::papyrus));
+        //Green
+        deck.push_back(GreenCard("Library", map<Resource,int>({{Resource::loom,1},{Resource::stone, 2}}) ,vector<string>({"Scriptorium"}), vector<string>({"Senate", "University"}),
+                                 3, Resource::tablet));
+        deck.push_back(GreenCard("Dispensary", map<Resource,int>({{Resource::glass,1},{Resource::ore, 2}}) ,vector<string>({"Apothecary"}), vector<string>({"Lodge", "Arena"}),
+                                 3, Resource::compass));
+        deck.push_back(GreenCard("School", map<Resource,int>({{Resource::wood,1},{Resource::papyrus, 1}}) ,vector<string>(), vector<string>({"Academy", "Study"}),
+                                 3, Resource::tablet));
+        deck.push_back(GreenCard("Laboratory", map<Resource,int>({{Resource::papyrus,1},{Resource::clay, 2}}) ,vector<string>({"Workshop"}), vector<string>({"Observatory", "Siege Workshop"}),
+                                 3, Resource::gear));
+
     }
     else if(age==3){
-
+        //Green
+        deck.push_back(GreenCard("Academy", map<Resource,int>({{Resource::glass,1},{Resource::stone, 3}}) ,vector<string>({"School"}), vector<string>(),
+                                 3, Resource::compass));
+        deck.push_back(GreenCard("Lodge", map<Resource,int>({{Resource::loom,1},{Resource::clay, 2},{Resource::papyrus, 1}}) ,vector<string>({"Dispensary"}), vector<string>(),
+                                 3, Resource::compass));
+        deck.push_back(GreenCard("University", map<Resource,int>({{Resource::glass,1},{Resource::wood, 2},{Resource::papyrus, 1}}) ,vector<string>({"Library"}), vector<string>(),
+                                 3, Resource::tablet));
+        deck.push_back(GreenCard("Study", map<Resource,int>({{Resource::loom,1},{Resource::wood, 1},{Resource::papyrus, 1}}) ,vector<string>({"School"}), vector<string>(),
+                                 3, Resource::gear));
+        deck.push_back(GreenCard("Observatory", map<Resource,int>({{Resource::glass,1},{Resource::ore, 2},{Resource::loom, 1}}) ,vector<string>({"Laboratory"}), vector<string>(),
+                                 3, Resource::gear));
     }
     else{
         std::cerr<<"Age should be 1, 2 or 3 and not "<<age;
