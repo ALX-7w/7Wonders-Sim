@@ -251,32 +251,59 @@ src/cards/CardFactory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/7Wonders_Sim.dir/build.make CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.s
 .PHONY : src/cards/CardFactory.cpp.s
 
-src/cards/Ressources.o: src/cards/Ressources.cpp.o
+src/cards/GreyCard.o: src/cards/GreyCard.cpp.o
 
-.PHONY : src/cards/Ressources.o
+.PHONY : src/cards/GreyCard.o
 
 # target to build an object file
-src/cards/Ressources.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7Wonders_Sim.dir/build.make CMakeFiles/7Wonders_Sim.dir/src/cards/Ressources.cpp.o
-.PHONY : src/cards/Ressources.cpp.o
+src/cards/GreyCard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7Wonders_Sim.dir/build.make CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.o
+.PHONY : src/cards/GreyCard.cpp.o
 
-src/cards/Ressources.i: src/cards/Ressources.cpp.i
+src/cards/GreyCard.i: src/cards/GreyCard.cpp.i
 
-.PHONY : src/cards/Ressources.i
+.PHONY : src/cards/GreyCard.i
 
 # target to preprocess a source file
-src/cards/Ressources.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7Wonders_Sim.dir/build.make CMakeFiles/7Wonders_Sim.dir/src/cards/Ressources.cpp.i
-.PHONY : src/cards/Ressources.cpp.i
+src/cards/GreyCard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7Wonders_Sim.dir/build.make CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.i
+.PHONY : src/cards/GreyCard.cpp.i
 
-src/cards/Ressources.s: src/cards/Ressources.cpp.s
+src/cards/GreyCard.s: src/cards/GreyCard.cpp.s
 
-.PHONY : src/cards/Ressources.s
+.PHONY : src/cards/GreyCard.s
 
 # target to generate assembly for a file
-src/cards/Ressources.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7Wonders_Sim.dir/build.make CMakeFiles/7Wonders_Sim.dir/src/cards/Ressources.cpp.s
-.PHONY : src/cards/Ressources.cpp.s
+src/cards/GreyCard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7Wonders_Sim.dir/build.make CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.s
+.PHONY : src/cards/GreyCard.cpp.s
+
+src/cards/Resource.o: src/cards/Resource.cpp.o
+
+.PHONY : src/cards/Resource.o
+
+# target to build an object file
+src/cards/Resource.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7Wonders_Sim.dir/build.make CMakeFiles/7Wonders_Sim.dir/src/cards/Resource.cpp.o
+.PHONY : src/cards/Resource.cpp.o
+
+src/cards/Resource.i: src/cards/Resource.cpp.i
+
+.PHONY : src/cards/Resource.i
+
+# target to preprocess a source file
+src/cards/Resource.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7Wonders_Sim.dir/build.make CMakeFiles/7Wonders_Sim.dir/src/cards/Resource.cpp.i
+.PHONY : src/cards/Resource.cpp.i
+
+src/cards/Resource.s: src/cards/Resource.cpp.s
+
+.PHONY : src/cards/Resource.s
+
+# target to generate assembly for a file
+src/cards/Resource.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7Wonders_Sim.dir/build.make CMakeFiles/7Wonders_Sim.dir/src/cards/Resource.cpp.s
+.PHONY : src/cards/Resource.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -353,9 +380,12 @@ help:
 	@echo "... src/cards/CardFactory.o"
 	@echo "... src/cards/CardFactory.i"
 	@echo "... src/cards/CardFactory.s"
-	@echo "... src/cards/Ressources.o"
-	@echo "... src/cards/Ressources.i"
-	@echo "... src/cards/Ressources.s"
+	@echo "... src/cards/GreyCard.o"
+	@echo "... src/cards/GreyCard.i"
+	@echo "... src/cards/GreyCard.s"
+	@echo "... src/cards/Resource.o"
+	@echo "... src/cards/Resource.i"
+	@echo "... src/cards/Resource.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

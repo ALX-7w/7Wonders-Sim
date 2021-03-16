@@ -8,11 +8,12 @@
 #include <string>
 #include <map>
 #include <vector>
-#include "Ressources.h"
+#include "Resource.h"
 #include "Card.h"
 #include <algorithm>
 #include <random>
 #include "BrownCard.h"
+#include "GreyCard.h"
 
 using std::vector, std::map, std::pair, std::string;
 

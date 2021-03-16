@@ -8,7 +8,7 @@
 #include <string>
 #include <map>
 #include <vector>
-#include "Ressources.h"
+#include "Resource.h"
 
 using std::vector, std::map, std::pair, std::string;
 
@@ -23,6 +23,8 @@ public:
      vector<string> chainFrom;
      vector<string> chainTo;
      int nbPlayerMin;
+     string color;
+     virtual string getColor();
     static map<int, vector<Card>> generateCards(int nbPlayer);
 
 friend std::ostream &operator<<(std::ostream&, const Card&);

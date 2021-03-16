@@ -94,12 +94,12 @@ clean: CMakeFiles/7Wonders_Sim.dir/clean
 CMakeFiles/7Wonders_Sim.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/7Wonders_Sim.dir/build.make CMakeFiles/7Wonders_Sim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/7Wonders_Sim.dir/build.make CMakeFiles/7Wonders_Sim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target 7Wonders_Sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target 7Wonders_Sim"
 .PHONY : CMakeFiles/7Wonders_Sim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/7Wonders_Sim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/7Wonders_Sim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/7Wonders_Sim.dir/rule

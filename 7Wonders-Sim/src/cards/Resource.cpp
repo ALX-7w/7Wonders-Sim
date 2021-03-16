@@ -2,7 +2,7 @@
 // Created by antonin on 07/03/2021.
 //
 
-#include "Ressources.h"
+#include "Resource.h"
 
 std::ostream &operator<<(std::ostream& os, const Resource &r){
     switch (r) {
@@ -18,5 +18,6 @@ std::ostream &operator<<(std::ostream& os, const Resource &r){
         case Resource::compass : os << "compass"; break;
         case Resource::gear : os << "gear"; break;
         case Resource::tablet : os << "tablet"; break;
+        case Resource::gold : os << "gold"; break;
     }
 }

@@ -21,6 +21,10 @@ std::ostream &operator<<(std::ostream& os, const Card &c){
     os << c.name;
 }
 
+string Card::getColor() {
+    return color;
+}
+
 inline bool operator==(const Card& c1, const Card& c2){
     return (c1.name == c2.name);
 }

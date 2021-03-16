@@ -142,18 +142,18 @@ CMakeFiles/7Wonders_Sim.dir/src/cards/BrownCard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/7Wonders_Sim.dir/src/cards/BrownCard.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/BrownCard.cpp -o CMakeFiles/7Wonders_Sim.dir/src/cards/BrownCard.cpp.s
 
-CMakeFiles/7Wonders_Sim.dir/src/cards/Ressources.cpp.o: CMakeFiles/7Wonders_Sim.dir/flags.make
-CMakeFiles/7Wonders_Sim.dir/src/cards/Ressources.cpp.o: ../src/cards/Ressources.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/7Wonders_Sim.dir/src/cards/Ressources.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/7Wonders_Sim.dir/src/cards/Ressources.cpp.o -c /home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/Ressources.cpp
+CMakeFiles/7Wonders_Sim.dir/src/cards/Resource.cpp.o: CMakeFiles/7Wonders_Sim.dir/flags.make
+CMakeFiles/7Wonders_Sim.dir/src/cards/Resource.cpp.o: ../src/cards/Resource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/7Wonders_Sim.dir/src/cards/Resource.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/7Wonders_Sim.dir/src/cards/Resource.cpp.o -c /home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/Resource.cpp
 
-CMakeFiles/7Wonders_Sim.dir/src/cards/Ressources.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/7Wonders_Sim.dir/src/cards/Ressources.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/Ressources.cpp > CMakeFiles/7Wonders_Sim.dir/src/cards/Ressources.cpp.i
+CMakeFiles/7Wonders_Sim.dir/src/cards/Resource.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/7Wonders_Sim.dir/src/cards/Resource.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/Resource.cpp > CMakeFiles/7Wonders_Sim.dir/src/cards/Resource.cpp.i
 
-CMakeFiles/7Wonders_Sim.dir/src/cards/Ressources.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/7Wonders_Sim.dir/src/cards/Ressources.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/Ressources.cpp -o CMakeFiles/7Wonders_Sim.dir/src/cards/Ressources.cpp.s
+CMakeFiles/7Wonders_Sim.dir/src/cards/Resource.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/7Wonders_Sim.dir/src/cards/Resource.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/Resource.cpp -o CMakeFiles/7Wonders_Sim.dir/src/cards/Resource.cpp.s
 
 CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.o: CMakeFiles/7Wonders_Sim.dir/flags.make
 CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.o: ../src/cards/CardFactory.cpp
@@ -168,6 +168,19 @@ CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/CardFactory.cpp -o CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.s
 
+CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.o: CMakeFiles/7Wonders_Sim.dir/flags.make
+CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.o: ../src/cards/GreyCard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.o -c /home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/GreyCard.cpp
+
+CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/GreyCard.cpp > CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.i
+
+CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/src/cards/GreyCard.cpp -o CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.s
+
 # Object files for target 7Wonders_Sim
 7Wonders_Sim_OBJECTS = \
 "CMakeFiles/7Wonders_Sim.dir/src/main.cpp.o" \
@@ -175,8 +188,9 @@ CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.s: cmake_force
 "CMakeFiles/7Wonders_Sim.dir/src/wonders/Wonder.cpp.o" \
 "CMakeFiles/7Wonders_Sim.dir/src/cards/Card.cpp.o" \
 "CMakeFiles/7Wonders_Sim.dir/src/cards/BrownCard.cpp.o" \
-"CMakeFiles/7Wonders_Sim.dir/src/cards/Ressources.cpp.o" \
-"CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.o"
+"CMakeFiles/7Wonders_Sim.dir/src/cards/Resource.cpp.o" \
+"CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.o" \
+"CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.o"
 
 # External object files for target 7Wonders_Sim
 7Wonders_Sim_EXTERNAL_OBJECTS =
@@ -186,11 +200,12 @@ CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.s: cmake_force
 7Wonders_Sim: CMakeFiles/7Wonders_Sim.dir/src/wonders/Wonder.cpp.o
 7Wonders_Sim: CMakeFiles/7Wonders_Sim.dir/src/cards/Card.cpp.o
 7Wonders_Sim: CMakeFiles/7Wonders_Sim.dir/src/cards/BrownCard.cpp.o
-7Wonders_Sim: CMakeFiles/7Wonders_Sim.dir/src/cards/Ressources.cpp.o
+7Wonders_Sim: CMakeFiles/7Wonders_Sim.dir/src/cards/Resource.cpp.o
 7Wonders_Sim: CMakeFiles/7Wonders_Sim.dir/src/cards/CardFactory.cpp.o
+7Wonders_Sim: CMakeFiles/7Wonders_Sim.dir/src/cards/GreyCard.cpp.o
 7Wonders_Sim: CMakeFiles/7Wonders_Sim.dir/build.make
 7Wonders_Sim: CMakeFiles/7Wonders_Sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable 7Wonders_Sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/antonin/Projects/ALX/7Wonders-Sim/7Wonders-Sim/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable 7Wonders_Sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/7Wonders_Sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
